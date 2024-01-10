@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  background-color: cadetblue;
+  margin: 0;
+}
+nav{
+  display: flex;
+  width: 100dvw;
+  height: 15dvh;
+  align-items: center;
+  justify-content: space-around;
+  background-color: cornflowerblue;
+}
+h1{
+  font-size: xx-large;
+}
+.history-btn{
+  background-color:gray;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 2px;
+  box-shadow: 1px 1px .2px black ;
+  cursor: pointer;
+}
+.history-btn:hover{
+  background-color: honeydew;
+  translate:2px ;
+}
+inputs{
+  margin-top:2rem;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  gap: 2rem;
+}
+.search-btn{
+  background-color:gray;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 2px;
+  box-shadow: 1px 1px .2px black ;
+  cursor: pointer;
+}
+.search-btn:hover{
+  background-color: honeydew;
+  translate:2px ;
+}
+.search-input{
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  border: 3px solid gray;
+}
+.search-output{
+  margin-top:1rem;
+}
+.card{
+  position: relative;
+  background-color: snow;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top:8px;
+  width: 85vw;
+  margin-left: 7vw;
+}
+.output-btn,.output-btns{
+  
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+}
+.output-btn:hover,.output-btns:hover{
+  border: 1px solid red;
+}
+.goback{
+  background-color:gray;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 2px;
+  box-shadow: 1px 1px .2px black ;
+  cursor: pointer;
+}
+.goback:hover{
+  background-color: honeydew;
+  translate:2px ;
+}
+.historycontainer{
+  display:none;
+}
+.historyheader{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap:2rem
+}
+
+.clearhistory{
+  background-color:gray;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 2px;
+  box-shadow: 1px 1px .2px black ;
+  cursor: pointer;
+}
+.clearhistory:hover{
+  background-color: honeydew;
+  translate:2px ;
+}
+.searching-message {
+  font-style: italic;
+  color: #555;
+  margin-top: 1rem;
+}
